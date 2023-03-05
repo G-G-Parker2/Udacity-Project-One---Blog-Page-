@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import "./main-page.css";
+@import "./blog-pages.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+    h1 {
+        color: #5F6D51;
+    }
+
+    h3 {
+        color:#5F6D51;
+    }
+
+@media (max-width: 500px) {
+   
+    h2 {
+        font-family: 'Roboto';
+        font: #5F6D51;
+        font-weight: 500;
+        font-size: medium;
+    }
+}
+@media (min-width: 501px)  {
+
+    h2 {
+        font-family: 'Roboto';
+        font: #5F6D51;
+        font-weight: 500;
+        font-size: large;
+    }
+}
+@media (min-width: 1025px) {
+
+    h2 {
+        font-family: 'Roboto';
+        font: #5F6D51;
+        font-weight: 500;
+        font-size: x-large;
+    }
+
+    h4 {
+        font-size: large;
+    }
+
+    p {
+        font-size: large;
+    }
+}
