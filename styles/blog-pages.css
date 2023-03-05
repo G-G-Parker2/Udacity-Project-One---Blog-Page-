@@ -72,7 +72,7 @@
     }
 
         .image-content {
-            max-width: 80vh;
+            max-width: 100%;
             height: auto;
             display: block;
             margin-left: auto;
@@ -247,7 +247,7 @@
     }
 
         .image-content {
-            max-width: 50vw;
+            max-width: 60%;
             height: auto;
             display: block;
             margin-left: auto;
@@ -258,6 +258,11 @@
             background-color: #efefef;
             padding: 5px 5px 5px 5px;
         }
+
+        .figcaption {
+            text-align: center;
+        }
+
 
     .home-button{
         grid-area: hb;
